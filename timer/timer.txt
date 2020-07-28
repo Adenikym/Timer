@@ -1,0 +1,5 @@
+#FFF3F1 - beige
+#FFE3DE - pale pink
+#FFDAD4- darker pink
+#C9B5BF- pale purple
+#807A8A- purple
