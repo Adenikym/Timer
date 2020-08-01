@@ -3,6 +3,30 @@ body{
     background-color:  #FFE3DE ;
 }
 
+header{display:flex;
+justify-content: space-evenly;}
+
+header button{
+    padding: 15px 35px;
+    border-radius: 16px 0 16px 0;
+    color: #807A8A;
+    background-color: #FFDAD4;
+    border: 1px solid #C9B5BF;
+    box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.04) ,2px 2px 2px 2px rgba(0, 0, 0, 0.04);
+    
+}
+
+header input{ padding: 15px 35px;
+    border-radius: 16px ;
+    color: #807A8A;
+    background-color: #FFDAD4;
+    border: 1px solid #C9B5BF;
+    box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.04) ,2px 2px 2px 2px rgba(0, 0, 0, 0.04);}
+
+    header label{
+        color:#807A8A
+    }
+
 .boxes{
     position: relative;
     

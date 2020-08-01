@@ -41,13 +41,39 @@ const countdown=setInterval(function () {
 }
 
 function showTime(seconds){
+    
     const lowest= Math.floor(seconds/60);
     const minutes=Math.floor( seconds%60);
     const hours= seconds/3600;
     display.innerHTML=minutes;
     middle.innerHTML=lowest;
+    
 }
 
 
-timer(120);
 
+
+
+
+    const five=document.getElementById("five").addEventListener("click", function(){
+        return timer(300)
+    });
+    const thirty=document.getElementById("thirty").addEventListener("click",function(){
+        return timer(1800)
+    });
+    const quarter = document.getElementById("forty-five").addEventListener("click", function() {
+        return timer(2700)
+    });
+    const high= document.getElementById("high").addEventListener("click", function() {
+        return timer(4000)
+    });
+
+    function varyTime(e) {
+        e.preventDefault();
+        const input=document.getElementById("enter").addEventListener("submit", function () {
+        
+        return timer(enter.value)
+        })    
+    }
+
+    
